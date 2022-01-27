@@ -3,6 +3,7 @@
     outline-color: white;
     border-radius: 0%;
     text-align: right;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;;
  }
 
  .buttons{
@@ -14,5 +15,6 @@
   }
 
  .ms:hover {
-     outline-color: white;
+     outline-color: black;
+     outline-style: solid;
  } 
