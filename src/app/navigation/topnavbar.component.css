@@ -6,15 +6,6 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;;
  }
 
- .buttons{
-    position: absolute;
-    top:50%;
-    right: 0;
-    width: 120px;
-    transform: translateY(-50%);
-  }
-
  .ms:hover {
-     outline-color: black;
-     outline-style: solid;
- } 
+     outline-color: white;
+ }
