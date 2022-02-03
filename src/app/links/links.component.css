@@ -1,0 +1,14 @@
+.size {
+    height: 50px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.margin {
+    margin-bottom: 5%;
+}
+
+.align {
+    text-align: center;
+}
