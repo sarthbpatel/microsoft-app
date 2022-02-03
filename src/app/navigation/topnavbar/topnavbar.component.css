@@ -40,19 +40,6 @@
     margin-bottom: auto;
 }
 
-
-
-
-/*
-.ms {
-    outline-style: solid;
-    outline-color: white;
-    border-radius: 0%;
-    text-align: right;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;;
- }
-
- .ms:hover {
-     outline-color: white;
- } */
- 
+.pushup {
+    margin-top: -10px;
+}
