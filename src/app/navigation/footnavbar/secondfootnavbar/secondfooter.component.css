@@ -1,0 +1,28 @@
+.background {
+    background-color: lightgray;
+}
+
+.link-start {
+    text-decoration: none;
+    color: black;
+}
+
+.link-start:hover {
+    border-bottom: 1px solid black;
+    width: min-content;
+}
+
+.link-end {
+    text-decoration: none;
+    color: black;
+}
+
+.link-end:hover {
+    border-bottom: 1px solid black;
+}
+
+.p-end {
+    text-decoration: none;
+    color: black;
+}
+
