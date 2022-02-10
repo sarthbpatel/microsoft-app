@@ -1,4 +1,4 @@
-import { Component } from "@angular/core";
+import { Component, Input } from "@angular/core";
 
 
 @Component({
@@ -7,5 +7,19 @@ import { Component } from "@angular/core";
     styleUrls: ["surface.component.css"]
 })
 export class SurfaceComponent {
+    @Input() img: String;
+    @Input() sos: String;
+    @Input() description: String;
+    @Input() link1: String;
+    @Input() link2: String;
+   
+    constructor() {
+        this.img = "";
+        this.sos = "XXXXX";
+        this.description = "Missing Description";
+        this.link1 = "Put the link";
+        this.link2 = "";
+        
+    }
 
 }
