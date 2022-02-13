@@ -13,7 +13,6 @@
    
     margin-top: 60px;
     padding-top: 50px;
-    
     max-width: 500px;
 }
 
@@ -21,4 +20,8 @@
     color: white;
     display: flex;
     vertical-align: top;
+}
+
+.text {
+    text-decoration: none;
 }
