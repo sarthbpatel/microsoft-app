@@ -27,5 +27,11 @@
 }
 
 .hover:hover {
-    border-bottom: 2px solid white;
+    text-decoration: underline!important;
+
+}
+
+.carousel-margin {
+    transform: translateX(-100px);
+
 }
