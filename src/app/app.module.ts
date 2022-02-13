@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
+import { TopCarouselComponent } from './carousel/topcarousel/topcarousel.component';
 import { ForBusinessComponent } from './For Business/forbusiness.component';
 import { JumbotronComponent } from './jumbotron/jumbotron.component';
 import { LinksComponent } from './links/links.component';
@@ -22,7 +23,8 @@ import { SurfaceComponent } from './surface/surface.component';
     LinksComponent,
     SurfaceComponent,
     JumbotronComponent,
-    ForBusinessComponent
+    ForBusinessComponent,
+    TopCarouselComponent
   ],
   imports: [
     BrowserModule
