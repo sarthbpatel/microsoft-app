@@ -10,6 +10,6 @@
 }
 
 .align:hover {
-    border-bottom: solid 1px black;
+    text-decoration: underline;
 }
 
