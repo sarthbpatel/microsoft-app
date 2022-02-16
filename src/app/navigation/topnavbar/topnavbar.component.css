@@ -15,7 +15,7 @@
 }
 
 .left-menu a:hover {
-    border-bottom: 2px solid black;
+    text-decoration: underline;
 }
 
 .right-menu {
@@ -42,4 +42,9 @@
 
 .pushup {
     margin-top: -14px;
+}
+
+.font {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: none;       
 }
