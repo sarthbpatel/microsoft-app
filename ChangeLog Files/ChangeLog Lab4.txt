@@ -1,0 +1,17 @@
+Release Notes / Change Log
+
+Main – features: Created seven different layout components. The name of the components are as follows:
+    •   Home
+    •	Microsoft365
+    •	Office
+    •	Windows
+    •	Surface
+    •	Xbox
+    •	Deals
+    •	Support
+    •	Added routing to all routing to all seven layout components. I added both foot navigation bars on all the components since they are identical on all the components.
+    •	Organized all the components using bootstrap like my original website
+
+Bonus – features:
+    •	Created a carousel on my home page
+    •	Fixed the underline styling in all the links in both the foot navigation bar and top navbar
