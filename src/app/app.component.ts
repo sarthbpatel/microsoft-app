@@ -14,29 +14,5 @@ import { ProductItemModelSurface } from './surface/product_item_model';
 export class AppComponent {
   title = 'microsoft-app';
   
-  products: ProductItemModelSurface[] = [];
-  links: ProductItemModelLink[] = [];
-  forbusiness: ProductItemModelForBusiness[] = [];
-
-    constructor() {
-      for (var product of mock_product_item_surface) {
-      console.log(product);
-      this.products.push(product);
-      }
-
-      for (var link of mock_product_item_link) {
-      console.log(link);
-      this.links.push(link);
-      }
-
-      for (var forbusiness of mock_product_item_forbusiness) {
-        console.log(forbusiness);
-        this.forbusiness.push(forbusiness);
-
-        
-      }
-    } 
-  
-  
   
 }

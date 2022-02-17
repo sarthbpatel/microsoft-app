@@ -1,46 +1,5 @@
-<ms-topnavbar>Loading...</ms-topnavbar>
 
-<ms-topcarousel>Loading...</ms-topcarousel>
-
-<div class="container-fluid d-flex justify-content-center">
-    <div *ngFor="let link of links">
-        <ms-linkscomponent class="mx-1"
-         img = {{link.img}} 
-         link = {{link.link}}>
-            Loading...
-        </ms-linkscomponent>
-    </div>
-</div>
-
-<div class="container-fluid d-flex justify-content-center">
-    <div *ngFor="let product of products">
-        <ms-surface class = "mx-2" 
-        img = {{product.img}} 
-        sos = {{product.sos}}
-        description = {{product.description}} 
-        link1={{product.link1}}
-        link2={{product.link2}}>
-            Loading...
-        </ms-surface>
-    </div>
-</div>
-
-<ms-jumbotron>Loading...</ms-jumbotron>
-<div class="container mt-4 my-0">
-<h3>For Business</h3>
-<div class="container-fluid d-flex justify-content-center">
-    <div *ngFor="let forbusiness of forbusiness">
-        <ms-surface class = "mx-2" 
-        img = {{forbusiness.img}} 
-        sos = {{forbusiness.sos}}
-        description = {{forbusiness.description}} 
-        link1={{forbusiness.link1}}
-        link2={{forbusiness.link2}}>
-            Loading...
-        </ms-surface>
-    </div>
-</div>
-</div>
+<router-outlet></router-outlet>
 
 <ms-footer> Loading... </ms-footer>
 
