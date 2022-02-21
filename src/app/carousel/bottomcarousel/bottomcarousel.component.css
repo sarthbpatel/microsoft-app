@@ -1,0 +1,39 @@
+.font-slide1 {
+    color: white;  
+    margin-top: 30px;
+    margin-bottom: 115px;
+    max-width: 500px;
+    text-align: start;
+    justify-content: flex-start;
+}
+
+.font-slide2 {
+    color: white;  
+    margin-bottom: 115px;
+    max-width: 500px;
+    text-align: start;
+    justify-content:flex-end;
+}
+
+.button-left {
+    margin-top: 210px;
+    margin-left: 3%;
+}
+
+.button-right {
+    margin-top: 210px;
+    margin-left: 87%;
+}
+
+.hover:hover {
+    text-decoration: underline!important;
+
+}
+
+.carousel-margin-left {
+    transform: translateX(-75px);
+}
+
+.carousel-margin-right {
+    transform: translateX(450px);
+}
