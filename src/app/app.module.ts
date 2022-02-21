@@ -19,6 +19,8 @@ import { SurfaceNavComponent } from './navigation/topnavbar/Routing left-menu/su
 import { XBoxComponent } from './navigation/topnavbar/Routing left-menu/xbox.component';
 import { DealsComponent } from './navigation/topnavbar/Routing left-menu/deals.component';
 import { SupportComponent } from './navigation/topnavbar/Routing left-menu/support.component';
+import { COVIDJumbotronComponent } from './COVID-19 jumbotron/jumbotron.component';
+import { BottomCarouselComponent } from './carousel/bottomcarousel/bottomcarousel.component';
 
 
 
@@ -41,7 +43,9 @@ import { SupportComponent } from './navigation/topnavbar/Routing left-menu/suppo
     SurfaceNavComponent,
     XBoxComponent,
     DealsComponent,
-    SupportComponent
+    SupportComponent,
+    COVIDJumbotronComponent,
+    BottomCarouselComponent
     
   ],
   imports: [
