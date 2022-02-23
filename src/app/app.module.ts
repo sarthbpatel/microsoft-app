@@ -14,13 +14,13 @@ import { COVIDJumbotronComponent } from './covidjumbotron.component';
 import { ForBusinessComponent } from './forbusiness.component';
 import { CommunityJumbotronComponent } from './community_jumbotron.component';
 import { SurfaceCardComponent } from './surfacecard.component';
-import { Microsoft365Component } from './topnavbar_routing/microsoft365.component';
 import { OfficeComponent } from './topnavbar_routing/office.component';
 import { WindowsComponent } from './topnavbar_routing/windows.component';
 import { SurfaceNavComponent } from './topnavbar_routing/surface.component';
 import { XBoxComponent } from './topnavbar_routing/xbox.component';
 import { DealsComponent } from './topnavbar_routing/deals.component';
 import { SupportComponent } from './topnavbar_routing/support.component';
+import { Microsoft365Component } from './topnavbar_routing/microsoft365/microsoft365.component';
 
 
 
@@ -45,7 +45,8 @@ import { SupportComponent } from './topnavbar_routing/support.component';
     COVIDJumbotronComponent,
     BottomCarouselComponent,
     FooterComponent,
-    Footer2Component
+    Footer2Component,
+    SupportComponent
   ],
   imports: [
     BrowserModule,
