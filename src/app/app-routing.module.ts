@@ -1,14 +1,14 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterModule, Routes } from '@angular/router';
-import { Microsoft365Component } from './homepage/topnavbar_routing/microsoft365.component';
+import { Microsoft365Component } from './topnavbar_routing/microsoft365.component';
 import { HomeComponent } from './home.component';
-import { OfficeComponent } from './homepage/topnavbar_routing/office.component';
-import { WindowsComponent } from './homepage/topnavbar_routing/windows.component';
-import { SurfaceNavComponent } from './homepage/topnavbar_routing/surface.component';
-import { XBoxComponent } from './homepage/topnavbar_routing/xbox.component';
-import { DealsComponent } from './homepage/topnavbar_routing/deals.component';
-import { SupportComponent } from './homepage/topnavbar_routing/support.component';
+import { OfficeComponent } from './topnavbar_routing/office.component';
+import { WindowsComponent } from './topnavbar_routing/windows.component';
+import { SurfaceNavComponent } from './topnavbar_routing/surface.component';
+import { XBoxComponent } from './topnavbar_routing/xbox.component';
+import { DealsComponent } from './topnavbar_routing/deals.component';
+import { SupportComponent } from './topnavbar_routing/support.component';
 
 const routes:Routes = [
   {path:'', component: HomeComponent},
