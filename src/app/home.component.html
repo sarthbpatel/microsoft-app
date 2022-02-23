@@ -14,31 +14,31 @@
 
 <div class="container-fluid d-flex justify-content-center">
     <div *ngFor="let product of products">
-        <ms-surface class = "mx-2" 
+        <ms-surfacecard class = "mx-2" 
         img = {{product.img}} 
         sos = {{product.sos}}
         description = {{product.description}} 
         link1={{product.link1}}
         link2={{product.link2}}>
             Loading...
-        </ms-surface>
+        </ms-surfacecard>
     </div>
 </div>
 
+<ms-communityjumbotron>Loading...</ms-communityjumbotron>
 
-<ms-jumbotron>Loading...</ms-jumbotron>
 <div class="container mt-4 my-0">
 <h3>For Business</h3>
 <div class="container-fluid d-flex justify-content-center">
     <div *ngFor="let forbusiness of forbusiness">
-        <ms-surface class = "mx-2" 
+        <ms-forbusiness class = "mx-2" 
         img = {{forbusiness.img}} 
         sos = {{forbusiness.sos}}
         description = {{forbusiness.description}} 
         link1={{forbusiness.link1}}
         link2={{forbusiness.link2}}>
             Loading...
-        </ms-surface>
+        </ms-forbusiness>
     </div>
 </div>
 </div>

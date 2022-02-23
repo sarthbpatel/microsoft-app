@@ -23,6 +23,7 @@
 .button-right {
     margin-top: 210px;
     margin-left: 87%;
+    text-decoration: none;
 }
 
 .hover:hover {

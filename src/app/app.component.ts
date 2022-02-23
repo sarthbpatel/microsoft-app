@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
-import { mock_product_item_forbusiness } from './For Business/mock_product_item';
-import { ProductItemModelForBusiness } from './For Business/product_item_model';
-import { mock_product_item_link } from './links/mock_product_item';
-import { ProductItemModelLink } from './links/product_item_model';
-import { mock_product_item_surface } from './surface/mock_product_item';
-import { ProductItemModelSurface } from './surface/product_item_model';
+import { mock_product_item_forbusiness } from './homepage/forbusiness_mock_product_item';
+import { ProductItemModelForBusiness } from './homepage/forbusiness_product_item_model';
+import { mock_product_item_link } from './homepage/links_mock_product_item';
+import { ProductItemModelLink } from './homepage/links_product_item_model';
+import { mock_product_item_surface } from './homepage/surfacecard_mock_product_item';
+import { ProductItemModelSurface } from './homepage/surfacecard_product_item_model';
 
 @Component({
   selector: 'app-root',

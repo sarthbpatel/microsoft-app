@@ -2,11 +2,11 @@ import { Component, Input } from "@angular/core";
 
 
 @Component({
-    selector: "ms-surface",
-    templateUrl: "surface.component.html",
-    styleUrls: ["surface.component.css"]
+    selector: "ms-surfacecard",
+    templateUrl: "surfacecard.component.html",
+    styleUrls: ["surfacecard.component.css"]
 })
-export class SurfaceComponent {
+export class SurfaceCardComponent {
     @Input() img: String;
     @Input() sos: String;
     @Input() description: String;

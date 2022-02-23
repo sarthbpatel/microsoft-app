@@ -2,25 +2,25 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
-import { TopCarouselComponent } from './carousel/topcarousel/topcarousel.component';
-import { ForBusinessComponent } from './For Business/forbusiness.component';
-import { JumbotronComponent } from './jumbotron/jumbotron.component';
-import { LinksComponent } from './links/links.component';
-import { FooterComponent } from './navigation/footnavbar/footer.component';
-import { SecondFooterComponent } from './navigation/footnavbar/secondfootnavbar/secondfooter.component';
-import { TopNavBarComponent } from './navigation/topnavbar/topnavbar.component';
-import { SurfaceComponent } from './surface/surface.component';
+import { LinksComponent } from './homepage/links.component';
+import { FooterComponent } from './homepage/footer.component';
+import { Footer2Component } from './homepage/footer2.component';
+import { TopNavBarComponent } from './homepage/topnavbar.component';
 import { AppRoutingModule } from './app-routing.module';
-import { Microsoft365Component } from './navigation/topnavbar/Routing left-menu/microsoft365.component';
 import { HomeComponent } from './home.component';
-import { OfficeComponent } from './navigation/topnavbar/Routing left-menu/office.component';
-import { WindowsComponent } from './navigation/topnavbar/Routing left-menu/windows.component';
-import { SurfaceNavComponent } from './navigation/topnavbar/Routing left-menu/surface.component';
-import { XBoxComponent } from './navigation/topnavbar/Routing left-menu/xbox.component';
-import { DealsComponent } from './navigation/topnavbar/Routing left-menu/deals.component';
-import { SupportComponent } from './navigation/topnavbar/Routing left-menu/support.component';
-import { COVIDJumbotronComponent } from './COVID-19 jumbotron/jumbotron.component';
-import { BottomCarouselComponent } from './carousel/bottomcarousel/bottomcarousel.component';
+import { BottomCarouselComponent } from './homepage/bottomcarousel.component';
+import { TopCarouselComponent } from './homepage/topcarousel.component';
+import { COVIDJumbotronComponent } from './homepage/covidjumbotron.component';
+import { ForBusinessComponent } from './homepage/forbusiness.component';
+import { CommunityJumbotronComponent } from './homepage/community_jumbotron.component';
+import { SurfaceCardComponent } from './homepage/surfacecard.component';
+import { Microsoft365Component } from './homepage/topnavbar_routing/microsoft365.component';
+import { OfficeComponent } from './homepage/topnavbar_routing/office.component';
+import { WindowsComponent } from './homepage/topnavbar_routing/windows.component';
+import { SurfaceNavComponent } from './homepage/topnavbar_routing/surface.component';
+import { XBoxComponent } from './homepage/topnavbar_routing/xbox.component';
+import { DealsComponent } from './homepage/topnavbar_routing/deals.component';
+import { SupportComponent } from './homepage/topnavbar_routing/support.component';
 
 
 
@@ -29,14 +29,6 @@ import { BottomCarouselComponent } from './carousel/bottomcarousel/bottomcarouse
   declarations: [
     AppComponent,
     TopNavBarComponent,
-    FooterComponent,
-    SecondFooterComponent,
-    LinksComponent,
-    SurfaceComponent,
-    JumbotronComponent,
-    ForBusinessComponent,
-    TopCarouselComponent,
-    HomeComponent,
     Microsoft365Component,
     OfficeComponent,
     WindowsComponent,
@@ -44,9 +36,16 @@ import { BottomCarouselComponent } from './carousel/bottomcarousel/bottomcarouse
     XBoxComponent,
     DealsComponent,
     SupportComponent,
+    TopCarouselComponent,
+    LinksComponent,
+    HomeComponent,
+    SurfaceCardComponent,
+    CommunityJumbotronComponent,
+    ForBusinessComponent,
     COVIDJumbotronComponent,
-    BottomCarouselComponent
-    
+    BottomCarouselComponent,
+    FooterComponent,
+    Footer2Component
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,11 @@
+.link2 {
+    text-align: start;
+}
+
+.link-text {
+    color: darkblue;
+}
+
+.link-text:hover {
+    text-decoration: underline;
+}

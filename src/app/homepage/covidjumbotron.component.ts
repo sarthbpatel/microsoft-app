@@ -3,8 +3,8 @@ import { Component } from "@angular/core";
 
 @Component ({
     selector: 'ms-covidjumbotron',
-    templateUrl: 'jumbotron.component.html',
-    styleUrls: ['jumbotron.component.css']
+    templateUrl: 'covidjumbotron.component.html',
+    styleUrls: ['covidjumbotron.component.css']
 })
 export class COVIDJumbotronComponent {
 
