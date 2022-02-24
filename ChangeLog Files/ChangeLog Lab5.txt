@@ -14,9 +14,8 @@ Bonus – features:
     Polished the homepage:
         Fixed the underline
         Changed links fonts
-        Updated TopNavBar to the lastest version
+        Updated TopNavBar to the latest version
         Aligned all the links in TopNavBar
         Spaced all the components properly
-    Polished components in Xboxx layout:
+    Polished components in Xbox layout:
         Fixed the width and height of the TopNavBar and TopCarousel
-        
