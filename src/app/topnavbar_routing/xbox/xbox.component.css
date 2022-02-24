@@ -1,0 +1,139 @@
+/* TOP-NAV BAR */
+.main-margin {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+.font {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: none;       
+}
+
+.logo {
+    width: 125px;
+    height: 25px;
+}
+
+.xbox-logo {
+    width: 75px;
+    height: 25px;
+    margin-left: 10px;
+    align-items: center;
+}
+
+.line-margin {
+    margin-left: 10px;
+}
+
+.left-menu {
+    justify-content: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    margin-right: auto;
+    margin-left: 50px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    padding-bottom: 2px;
+}
+
+.left-menu a:hover {
+    text-decoration: underline;
+}
+
+.margin-dropdown {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    white-space: normal;
+    background-color: lightgray;
+    color: black;
+}
+
+.margin-dropdown-width {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    white-space: normal;
+    width: 800%;
+    background-color: lightgray;
+    color: black;
+}
+
+.fontsize-dropdown {
+    font-size: medium;
+}
+
+.right-menu {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+   
+}
+
+.hover:hover {
+    text-decoration: underline;
+}
+
+
+.margin-icon {
+    margin-top: -6px;
+}
+
+
+/* TOP - CAROUSEL */
+.xboxcarousel-margin {
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+.btn-slide {
+    color: darkgreen;
+    background-color: lightgreen;
+}
+
+.slide1 {
+    margin-bottom: 150px;
+    transform: translateX(700px);
+    max-width: 500px;
+    text-align: start;
+}
+
+.slide2 {
+    margin-bottom: 175px;
+    max-width: 500px;
+    text-align: start;
+}
+
+.slide3 {
+    color: black;
+    text-align: start;
+    max-width: 500px;
+    margin-bottom: 175px;
+    transform: translateX(700px);
+}
+
+.hover:hover {
+    text-decoration: underline!important;
+
+}
+
+
+
+/* LINKS */
+.image {
+    margin-top: 20px;
+    width: auto;
+    height: auto;
+    margin-left: 15px;
+}
+
+.text {
+    text-align: center;
+    font-size: medium;
+    color: green;
+}
+.text:hover:hover {
+    text-decoration: underline;
+}
+
+
+
