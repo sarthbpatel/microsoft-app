@@ -4,11 +4,11 @@ import { RouterModule, Routes } from '@angular/router';
 import { Microsoft365Component } from './topnavbar_routing/microsoft365/microsoft365.component';
 import { HomeComponent } from './home.component';
 import { OfficeComponent } from './topnavbar_routing/office/office.component';
-import { WindowsComponent } from './topnavbar_routing/windows.component';
+import { WindowsComponent } from './topnavbar_routing/windows/windows.component';
 import { SurfaceNavComponent } from './topnavbar_routing/surfacenav/surfacenav.component';
-import { XBoxComponent } from './topnavbar_routing/xbox.component';
 import { DealsComponent } from './topnavbar_routing/deals/deals.component';
 import { SupportComponent } from './topnavbar_routing/support/support.component';
+import { XboxComponent } from './topnavbar_routing/xbox/xbox.component';
 
 const routes:Routes = [
   {path:'', component: HomeComponent},
@@ -17,7 +17,7 @@ const routes:Routes = [
   {path: 'office', component: OfficeComponent},
   {path: 'windows', component: WindowsComponent},
   {path: 'surface', component: SurfaceNavComponent},
-  {path: 'xbox', component: XBoxComponent},
+  {path: 'xbox', component: XboxComponent},
   {path: 'deals', component: DealsComponent},
   {path: 'support', component: SupportComponent}
 
