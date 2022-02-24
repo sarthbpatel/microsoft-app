@@ -4,6 +4,16 @@
     margin: auto;
 }
 
+.font {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: none;       
+}
+
+.logo {
+    width: 125px;
+    height: 25px;
+}
+
 .left-menu {
     justify-content: center;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -24,25 +34,7 @@
     font-size: 15px;
     margin-top: 2px;
     margin-bottom: 2px;
-}
-
-.logo {
-    width: 125px;
-    height: 25px;
-}
-
-.bi {
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-.pushup {
-    margin-top: -14px;
-}
-
-.font {
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    border: none;       
+    margin-left: -50px;
 }
 
 .margin-allmicrosoft {
@@ -57,11 +49,11 @@
     background-color: lightgray;
 }
 
-.margin-icon {
-    margin-left: 0px;
-}
-
 .background {
     background-color: lightgray;
     color: black;
+}
+
+.margin-icon {
+    margin-top: -5px;
 }
