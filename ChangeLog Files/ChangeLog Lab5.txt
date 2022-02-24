@@ -1,0 +1,22 @@
+Release Notes / Change Log
+
+Main – features: Create 3 new components for 2 layout components
+    Created 3 components for home layout component
+        COVID Jumbotron
+        Bottom carousel
+        Social Links
+    Created 3 components for xbox layout component
+        TopNavBar
+        Top carousel
+        XBox Link - implement ngForLoop in this component
+    
+Bonus – features:
+    Polished the homepage:
+        Fixed the underline
+        Changed links fonts
+        Updated TopNavBar to the lastest version
+        Aligned all the links in TopNavBar
+        Spaced all the components properly
+    Polished components in Xboxx layout:
+        Fixed the width and height of the TopNavBar and TopCarousel
+        
