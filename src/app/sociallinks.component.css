@@ -1,0 +1,12 @@
+.margin {
+    margin-left: 15px;
+    margin-top: 50px;
+}
+
+.margin:hover {
+    opacity: 75%;
+}
+
+.margin-text {
+    margin-top: 50px;
+}
