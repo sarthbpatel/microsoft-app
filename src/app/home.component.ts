@@ -6,6 +6,7 @@ import { ProductItemModelLink } from "./links_product_item_model";
 import { mock_product_item_surface } from "./surfacecard_mock_product_item";
 import { ProductItemModelSurface } from "./surfacecard_product_item_model";
 
+
 @Component ({
     selector: 'ms-home',
     templateUrl: 'home.component.html',
@@ -31,7 +32,6 @@ export class HomeComponent {
         console.log(forbusiness);
         this.forbusiness.push(forbusiness);
 
-        
       }
     } 
   
