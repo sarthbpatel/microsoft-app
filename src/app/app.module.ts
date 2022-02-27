@@ -22,6 +22,7 @@ import { WindowsComponent } from './navigation-bars/topnavbar/topnavbar_routing/
 import { SupportComponent } from './navigation-bars/topnavbar/topnavbar_routing/support/support.component';
 import { SocialLinksComponent } from './social-links/sociallinks.component';
 import { HttpClientModule } from '@angular/common/http';
+import { UserInfoComponent } from './user-info/user-info.component';
 
 
 
@@ -47,6 +48,7 @@ import { HttpClientModule } from '@angular/common/http';
     FooterComponent,
     Footer2Component,
     SupportComponent,
+    UserInfoComponent,
   ],
   imports: [
     BrowserModule,
