@@ -1,0 +1,15 @@
+Release Notes / Change Log
+
+Main features:
+    Created a backend via firebase
+    Created a Realtime database and the database contains basic information
+    Used Angular's HTTP Client to get the data from the backend on my website
+    Created a new component to display the data on my homepage obtained from backend. 
+
+Bonus Features:
+    Created 4 new cards and polished it using flex bootstrap in xbox-layout component:
+        Grid Legends
+        Game Pass
+        Xbox Black History Month
+        Xbox Design Lab
+    Fixed resolution of topnavbar and top carousel
