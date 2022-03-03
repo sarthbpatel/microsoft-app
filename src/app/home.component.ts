@@ -31,18 +31,13 @@ export class HomeComponent implements OnInit {
       this.links.push(link);
       }
 
-      for (var forbusiness of mock_product_item_forbusiness) {
-        console.log(forbusiness);
-        this.forbusiness.push(forbusiness);
-
-      }
     }
   ngOnInit(): void {
     console.log("Fetch data");
     this.service.getProducts().subscribe(data => {
       console.log(data);
       for(var product of data) {
-        this.products_forbusiness.push(product);
+        this.forbusiness.push(product);
       }
     })
   }
