@@ -316,9 +316,11 @@
 }
 
 .grid-legend-text-layout {
-    margin-top: 40%;
+    margin-top: 44%;
     margin-left: 5%;
     margin-right: 5%;
+    font-size: 115%;
+    width: 80%;
 }
 
 .grid-legend-link {
