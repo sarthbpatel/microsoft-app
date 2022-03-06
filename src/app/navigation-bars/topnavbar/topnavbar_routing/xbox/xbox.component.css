@@ -8,7 +8,7 @@
 
 .font {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    border: none;       
+    border: none;
 }
 
 .logo {
@@ -66,7 +66,7 @@
 .right-menu {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 15px;
-   
+
 }
 
 .hover:hover {
@@ -135,7 +135,7 @@
 
 .font-color {
     color: white;
-    font-size: 18px;
+    font-size: 100%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-decoration: none;
 }
@@ -143,23 +143,23 @@
 
 /* GRID-LEGENDS */
 .grid-legends{
-    width: 915px;
-    height: 1033px;
+    width: 25cm;
+    height: 28cm;
     color: black;
-    font-size: 20px;
+    font-size: 0.5cm;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     border: none;
 }
 
 .layout1 {
-    transform: translateY(70%);
+    margin-top: 80%;
     margin-left: 5%;
 }
 
 .link1 {
-    color: black;   
+    color: black;
     text-decoration: none;
-    font-size: 15px;
+    font-size: 0.5cm;
 }
 
 .link1:hover {
@@ -172,20 +172,20 @@
     background-color: green;
 }
 .discover-next {
-    width: 445px;
-    height: 518px;
+    width: 12cm;
+    height: 15cm;
     border: none;
 }
 
 .game-pass {
-    width: 470px;
-    height: 518px;
+    width: 13cm;
+    height: 15cm;
     border: none;
 
 }
 
 .layout2 {
-    transform: translateY(30%);
+    margin-top: 40%;
     margin-left: 5%;
     margin-right: 5%;
 }
@@ -202,31 +202,27 @@
     font-weight: bold;
 }
 
-.push-image-up{
-    transform: translateY(-49%);
-}
+
 
 /* XBOX-BLACK */
 .background {
     background-color: green;
 }
 .xbox-black-text {
-    width: 460px;
-    height: 510px;
+    width:12cm;
+    height: 15cm;
     border: none;
 }
 
 .xbox-black{
-    width: 460px;
-    height: 510px;
+    width: 13cm;
+    height: 15cm;
     border: none;
 
 }
 
 .layout3 {
-    transform: translateY(30%);
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-top: 35%;
 }
 
 
@@ -243,21 +239,20 @@
 
 /* Xbox-Design-Lab */
 .xbox-design-lab{
-    width: 915px;
-    height: 1052px;
+    width:25cm;
     color: white;
-    font-size: 20px;
+    font-size: 0.5cm;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     border: none;
 }
 
 .layout4 {
-    transform: translateY(70%);
+    margin-top: 80%;
     margin-left: 5%;
 }
 
 .link4 {
-    color: white;   
+    color: white;
     text-decoration: none;
     font-size: 15px;
 }
@@ -265,9 +260,74 @@
 .link4:hover {
     text-decoration: underline;
 }
-
-.push-image-up{
-    transform: translateY(-49%);
+.push-image-up {
+  transform: translateY(-46%);
+  margin-right:15px;
+  margin-left: 1px;
 }
 
+/* Fortnite Bundle */
+.fortnite-bundle {
+  transform: translateY(-61%);
+  margin-left: 0.5%;
+  margin-right: 0.5%;
+}
 
+.fortnite-header {
+  font-size: 500%;
+  width: 25%;
+  margin-top: 10%;
+  margin-left: 5%;
+}
+
+.fortnite-text {
+  font-size: 200%;
+  width: 27%;
+  margin-left: 5%;
+}
+
+.fortnite-button {
+  margin-left: 5%;
+}
+
+/* GRID LEGENDS */
+.grid-legend-small-pushup {
+  transform: translateY(-85%);
+}
+
+.grid-legend-text-margin {
+  margin-left: 0.5%;
+}
+
+.background {
+    background-color: green;
+}
+.grid-legend-text {
+    width: 12cm;
+    height: 15cm;
+    border: none;
+}
+
+.grid-legend-card {
+    width: 13cm;
+    height: 15cm;
+    border: none;
+
+}
+
+.grid-legend-text-layout {
+    margin-top: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.grid-legend-link {
+    text-decoration: none;
+    color: white
+}
+
+.grid-legend-link:hover {
+    color: lightgreen;
+    text-decoration: underline;
+    font-weight: bold;
+}
