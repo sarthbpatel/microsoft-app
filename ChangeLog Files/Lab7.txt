@@ -1,0 +1,16 @@
+Release Notes / Change Log
+
+Main Features:
+  Moved the content of mock data of for business component to my Real time database.
+  Created a service component that communicates with the backend and obtains the data for
+  programmatic component of for-business.
+  Used the service component and used it to replace the component inside ngFor Loop. The programmatic
+  component gets the data from the database.
+
+
+
+Bonus Features:
+  Created 2 new card components and polished it using flex bootstrap in xbox-layout component:
+    Simply Next Gen Card component.
+    Grid legend small card component.
+  Fixed the margin errors for the above four cards.
