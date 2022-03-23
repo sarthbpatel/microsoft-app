@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "dist/microsoft-app",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
