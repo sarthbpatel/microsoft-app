@@ -175,6 +175,7 @@
     width: 12cm;
     height: 15cm;
     border: none;
+    margin-left: 1%;
 }
 
 .game-pass {
@@ -218,7 +219,6 @@
     width: 13cm;
     height: 15cm;
     border: none;
-
 }
 
 .layout3 {
@@ -263,7 +263,7 @@
 .push-image-up {
   transform: translateY(-46%);
   margin-right:15px;
-  margin-left: 1px;
+  margin-left: 10px;
 }
 
 /* Fortnite Bundle */
@@ -332,4 +332,63 @@
     color: lightgreen;
     text-decoration: underline;
     font-weight: bold;
+}
+
+/* Quarry */
+.quarry{
+    width:25cm;
+    color: white;
+    font-size: 0.5cm;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: none;
+}
+
+.quarry-text-layout {
+    margin-top: 80%;
+    margin-left: 5%;
+}
+
+.quarry-link {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.quarry-link:hover {
+    text-decoration: underline;
+}
+.quarry-push-image-up {
+  transform: translateY(-46%);
+  margin-right:15px;
+  margin-left: 10px;
+}
+
+/* Women's History Month */
+.w-history{
+    width:25cm;
+    color: white;
+    font-size: 0.5cm;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: none;
+}
+
+.w-history-text-layout {
+    max-width: 500px;
+    margin-top: 78%;
+    margin-left: 5%;
+}
+
+.w-history-link {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.w-history-link:hover {
+    text-decoration: underline;
+}
+.w-history-push-image-up {
+  transform: translateY(-91%);
+  margin-right:15px;
+  margin-left: 10px;
 }
