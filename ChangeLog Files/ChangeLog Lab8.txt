@@ -1,0 +1,11 @@
+Release Notes / Change Log
+
+Main Features:
+  Configured Angular Fire library
+  Replaced AngularFireDatabase dependency with HTTpClient dependency
+  Re-implemented the fetching data method by replacing HTTpClient dependency with AngularFireDatabase dependency
+  Deployed my web application
+
+Bonus Features:
+  Created two new cards in xbox-layout component
+  Polished both the cards using flex bootstrap
