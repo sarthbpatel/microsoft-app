@@ -12,10 +12,10 @@ export class ProductService {
     }
 
     public getProducts() {
-        return this.db.list<ProductItemModelForBusiness>("forbusiness").valueChanges();
+        return this.db.list<ProductItemModelForBusiness>("ForBusinessproducts").valueChanges();
     }
 
     public getProduct(index:number) {
-        return this.db.list("forbusiness", ref => ref.orderByChild("price").startAt(10)).valueChanges();    
+        return this.db.list("forbusiness", ref => ref.orderByChild("price").startAt(10)).valueChanges();
     }
 }
