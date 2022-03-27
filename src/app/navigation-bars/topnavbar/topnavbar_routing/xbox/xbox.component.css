@@ -389,6 +389,75 @@
 }
 .w-history-push-image-up {
   transform: translateY(-91%);
-  margin-right:15px;
   margin-left: 10px;
 }
+
+/* Flight-Simulator */
+.flight-simulator-background {
+    background-color: whitesmoke;
+}
+
+.flight-simulator {
+    width: 12cm;
+    height: 15cm;
+    border: none;
+    margin-left: 1%;
+}
+
+.fs-image {
+    width: 12cm;
+    height: 15cm;
+    border: none;
+
+}
+
+.flight-simulator-text {
+    margin-top: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.fs-font-color {
+    color: black;
+    font-size: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+}
+
+.fs-link {
+    text-decoration: none;
+    color: black
+}
+
+.fs-link:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.fs-push-image-up {
+    transform: translateY(-85%);
+}
+  
+/* Fortnite Bundle */
+.xbox-gear {
+    transform: translateY(-118%);
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+  }
+  
+  .xbox-gear-header {
+    font-size: 400%;
+    width: 50%;
+    margin-top: 15%;
+    margin-left: 70%;
+  }
+  
+  .xbox-gear-text {
+    font-size: 200%;
+    width: 27%;
+    margin-left: 70%;
+  }
+  
+  .xbox-gear-button {
+    margin-left: 70%;
+  }
