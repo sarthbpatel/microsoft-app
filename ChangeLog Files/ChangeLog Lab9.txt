@@ -1,0 +1,10 @@
+Release Notes / Change Log
+
+Main Features:
+  Added a form to enter information for card component
+  Added a method to the service component that sends data to the backend.
+  Used the method of service component inside the form component to send the data from the form to the backend. 
+
+Bonus Features:
+  Created two new cards in xbox-layout component
+  Polished both the cards using flex bootstrap
