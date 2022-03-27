@@ -9,6 +9,7 @@ import { SurfaceNavComponent } from './navigation-bars/topnavbar/topnavbar_routi
 import { DealsComponent } from './navigation-bars/topnavbar/topnavbar_routing/deals/deals.component';
 import { SupportComponent } from './navigation-bars/topnavbar/topnavbar_routing/support/support.component';
 import { XboxComponent } from './navigation-bars/topnavbar/topnavbar_routing/xbox/xbox.component';
+import { AddProductComponent } from './forbusiness/add-product/add-product.component';
 
 const routes:Routes = [
   {path:'', component: HomeComponent},
@@ -19,7 +20,8 @@ const routes:Routes = [
   {path: 'surface', component: SurfaceNavComponent},
   {path: 'xbox', component: XboxComponent},
   {path: 'deals', component: DealsComponent},
-  {path: 'support', component: SupportComponent}
+  {path: 'support', component: SupportComponent},
+  {path: 'admin', component: AddProductComponent}
 
 ];
 

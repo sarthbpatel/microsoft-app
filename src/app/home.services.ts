@@ -18,4 +18,8 @@ export class ProductService {
     public getProduct(index:number) {
         return this.db.list("forbusiness", ref => ref.orderByChild("price").startAt(10)).valueChanges();
     }
+
+    addProduct(product:ProductItemModelForBusiness) {
+        this.db.list<ProductItemModelForBusiness>("ForBusinessproducts").push(product);
+    }
 }
