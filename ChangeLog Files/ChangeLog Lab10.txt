@@ -1,0 +1,7 @@
+Release Notes/Change Log
+
+Main Features:
+    Enabled firebase authentication
+    Created an authentication component
+    Created an authentication service
+    Connected authentication component with authentication service and displayed an appropriate message to the user

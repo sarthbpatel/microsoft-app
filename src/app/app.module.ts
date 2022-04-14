@@ -30,6 +30,7 @@ import { AngularFireModule } from '@angular/fire/compat';
 import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
 import { AddProductComponent } from './forbusiness/add-product/add-product.component';
 import { FormsModule } from '@angular/forms';
+import { AuthenticationComponent } from './authentication/authentication.component';
 
 
 
@@ -59,6 +60,7 @@ import { FormsModule } from '@angular/forms';
     SupportComponent,
     UserInfoComponent,
     AddProductComponent,
+    AuthenticationComponent,
   ],
   imports: [
     BrowserModule,

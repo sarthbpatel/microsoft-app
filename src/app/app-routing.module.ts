@@ -10,6 +10,7 @@ import { DealsComponent } from './navigation-bars/topnavbar/topnavbar_routing/de
 import { SupportComponent } from './navigation-bars/topnavbar/topnavbar_routing/support/support.component';
 import { XboxComponent } from './navigation-bars/topnavbar/topnavbar_routing/xbox/xbox.component';
 import { AddProductComponent } from './forbusiness/add-product/add-product.component';
+import { AuthenticationComponent } from './authentication/authentication.component';
 
 const routes:Routes = [
   {path:'', component: HomeComponent},
@@ -21,7 +22,9 @@ const routes:Routes = [
   {path: 'xbox', component: XboxComponent},
   {path: 'deals', component: DealsComponent},
   {path: 'support', component: SupportComponent},
-  {path: 'admin', component: AddProductComponent}
+  {path: 'admin', component: AddProductComponent},
+  {path: 'auth', component: AuthenticationComponent}
+
 
 ];
 
